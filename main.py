@@ -60,6 +60,7 @@ class HabrNewsFinder:
                     }
             return {}
 
+
 if __name__ == '__main__':
     aa = HabrNewsFinder()
     aa.get_news(KEYWORDS, deeps_search=True)
